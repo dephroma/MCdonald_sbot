@@ -12,7 +12,7 @@ const bot = new Telegraf(BOT_TOKEN);
 // Установка вебхука
 const setupWebhook = async () => {
   try {
-    await bot.telegram.setWebhook('https://telegrambotdag.netlify.app/.netlify/functions/main');
+    await bot.telegram.setWebhook('https://formcdonald.netlify.app/.netlify/functions/main');
     console.log("Webhook успешно установлен!");
   } catch (err) {
     console.error("Ошибка при установке вебхука:", err);
