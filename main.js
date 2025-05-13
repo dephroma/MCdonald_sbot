@@ -17,3 +17,6 @@ bot.on('message', (ctx) => {
 bot.launch()
     .then(() => console.log('Бот запущен!'))
     .catch((err) => console.error('Ошибка запуска бота:', err));
+
+    // Экспорт обработчика вебхука
+exports.handler = handleWebhook;
