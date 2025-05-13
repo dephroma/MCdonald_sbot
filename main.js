@@ -8,7 +8,7 @@ setupWebhook();
 // Обработчик любого сообщения
 bot.on('message', (ctx) => {
     ctx.reply(
-        'Чтобы купить этот домен, обращайтесь сюда: @Fullreadiness', // Замените @username на нужный юзернейм
+        'To purchase this domain, contact: @Fullreadiness', // Замените @username на нужный юзернейм
         { reply_to_message_id: ctx.message.message_id } // Ответить на сообщение пользователя
     );
 });
