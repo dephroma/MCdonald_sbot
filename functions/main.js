@@ -13,10 +13,6 @@ bot.on('message', (ctx) => {
     );
 });
 
-// Запуск бота
-bot.launch()
-    .then(() => console.log('Бот запущен!'))
-    .catch((err) => console.error('Ошибка запуска бота:', err));
 
     // Экспорт обработчика вебхука
 exports.handler = handleWebhook;
